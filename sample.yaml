@@ -1,9 +1,8 @@
 sample:
-  description: Hello World sample, the simplest Zephyr
-    application
-  name: hello world
+  description: Morse code transmitter
+  name: morse
 common:
-  tags: introduction
+  tags: introduction, morse 
   integration_platforms:
     - native_sim
   harness: console
